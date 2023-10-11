@@ -7,6 +7,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  /* Custom Properties */
+
+  /* Primary */
+  --color-dark-green: #006400;
+  --color-white: #ffffff;
+
+  /* Gradient Colors */
+  --color-gradient-2: #00ff00;
+  --color-gradient-1: #7fff00;
 }
 
 * {
