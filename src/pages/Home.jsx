@@ -1,8 +1,6 @@
 import { Fragment } from "react";
-// import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Button } from "../Components/Style";
-// import media from "styled-media-query";
 import { generateMedia } from "styled-media-query";
 const styledBreakPoints = generateMedia({
   mobile: "500px",
@@ -12,14 +10,19 @@ const styledBreakPoints = generateMedia({
 
 const Container = styled.div`
   display: flex;
-  height: 100vh;
+  height: 90vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0 1rem;
 
+  ${styledBreakPoints.greaterThan("tablet")`
+  height: 100vh;
+  `}
+
   p {
     font-size: 16px;
+    color: #fff;
     ${styledBreakPoints.lessThan("mobile")`
     font-size: 12px;
     `}

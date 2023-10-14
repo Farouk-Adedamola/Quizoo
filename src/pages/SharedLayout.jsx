@@ -1,6 +1,7 @@
 import { useState, useEffect, Fragment } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import styled from "styled-components";
+import media from "styled-media-query";
 
 const SharedLayout = () => {
   const [loading, setLoading] = useState(true);
@@ -47,13 +48,15 @@ export default SharedLayout;
 const Wrapper = styled.div`
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
+  ${media.greaterThan("tablet")`
+height: 100vh;
+`}
 
   h1 {
     color: var(--color-gradient-1);
     text-align: center;
     margin: 0 auto;
-    height: auto;
     width: auto;
   }
 `;

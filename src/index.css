@@ -22,6 +22,7 @@
 * {
   margin: 0;
   padding: 0;
+  background: #000;
   box-sizing: inherit;
   font-family: "Quicksand", sans-serif;
 }

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Button = styled(Link)`
   background-color: var(--color-gradient-2);
-  color: #fff;
+  color: #000;
   text-decoration: none;
   padding: 1rem 1rem;
   border-radius: 0.7rem;
