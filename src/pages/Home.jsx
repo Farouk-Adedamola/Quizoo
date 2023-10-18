@@ -15,6 +15,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 1rem;
+  background: #242424;
 
   ${styledBreakPoints.greaterThan("tablet")`
   height: 100vh;

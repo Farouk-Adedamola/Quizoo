@@ -10,8 +10,8 @@ function App() {
           <Route index element={<Home />} />
           <Route path="quizoo" element={<Quizoo />} />
           <Route path="sharedlayout" element={<SharedLayout />}>
-            <Route path="login" element={<Login />} />
             <Route path="signup" element={<Signup />} />
+            <Route path="login" element={<Login />} />
           </Route>
         </Routes>
       </BrowserRouter>

@@ -28,7 +28,6 @@ const SharedLayout = () => {
                 Login
                 <div></div>
               </ActiveLink>
-
               <ActiveLink to="signup">
                 Signup
                 <div></div>
@@ -58,6 +57,7 @@ height: 100vh;
     text-align: center;
     margin: 0 auto;
     width: auto;
+    font-weight: 700;
   }
 `;
 
